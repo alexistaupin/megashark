@@ -44,14 +44,14 @@
         <?php if (!empty($room->showtimes)): ?>
         <table cellpadding="0" cellspacing="0">
             <tr>
-                <th scope="col"><?= __('Id') ?></th>
-                <th scope="col"><?= __('Movie Id') ?></th>
-                <th scope="col"><?= __('Room Id') ?></th>
-                <th scope="col"><?= __('Start') ?></th>
-                <th scope="col"><?= __('End') ?></th>
-                <th scope="col"><?= __('Created') ?></th>
-                <th scope="col"><?= __('Modified') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col"><?= __('Lundi') ?></th>
+                <th scope="col"><?= __('Mardi') ?></th>
+                <th scope="col"><?= __('Mercredi') ?></th>
+                <th scope="col"><?= __('Jeudi') ?></th>
+                <th scope="col"><?= __('Vendredi') ?></th>
+                <th scope="col"><?= __('Samedi') ?></th>
+                <th scope="col"><?= __('Dimanche') ?></th>
+             <!--   <th scope="col" class="actions"><?= __('Actions') ?></th>-->
             </tr>
             <?php foreach ($room->showtimes as $showtimes): ?>
             <tr>
