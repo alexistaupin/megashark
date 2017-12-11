@@ -115,4 +115,14 @@ class ShowtimesController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+   /* public function planning($id = null)
+    {
+        $showtime = $this->Showtimes->get($id, [
+            'contain' => ['Movies', 'Rooms']
+        ]);
+
+        $this->set('showtime', $showtime);
+        $this->set('_serialize', ['showtime']);
+    }
+   */
 }

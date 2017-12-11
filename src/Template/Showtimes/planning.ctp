@@ -1,4 +1,4 @@
-<?php
+    <?php
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Room $room
@@ -59,21 +59,25 @@
     <table>
         <?php foreach ($showtimes as $showtime): ?>
             <tr>
-                <?php 
+
+                   <?php 
                     $test = ($showtime->start)->format('N');
                     if($test==$i){?>
                         <tr>
-                            <td>
-                            <?php echo h($showtime->movie->name );
-                            echo h($showtime->movie->duration );
-                            echo h($showtime->start );
-                            echo h($showtime->end );
+                        <td>
+                        <?php echo h($showtime->movie->name );
+                        echo h($showtime->movie->duration );
+                        echo h($showtime->start );
+                        echo h($showtime->end );
                         }
                     ?>
-                </tr>
-            <?php endforeach;  ?>
-            </table>
+
+            </tr>
+        <?php endforeach;  ?>
+
+        </table>
         </td>
         <?php } ?>
+
     </table>
 </div>

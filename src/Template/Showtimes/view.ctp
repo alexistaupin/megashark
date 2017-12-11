@@ -1,7 +1,7 @@
 <?php
 /**
  * @var \App\View\AppView $this
- * @var \App\Model\Entity\Showtime $showtime
+ * @var \App\Model\Entity\Showtimes $showtime
  */
 ?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
